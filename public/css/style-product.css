@@ -1,0 +1,68 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-weight:bolder;
+    filter: drop-shadow(2px 2px rgba(0,0,0,0.5));
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: deeppink;
+}
+
+h2{
+    font-weight: lighter;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+p {
+    color: #2E2E2E;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+nav {
+    font-size: 1rem;
+}
+
+#footer {
+    background-color: deeppink; height: 3rem;
+}
+
+#nav-bg-lg {
+    display: none;
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+    h1{
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1124px) {
+    body {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 1124px) and (max-width: 1360px) {
+    body {
+        width: 85% !important;
+    }
+}
+
+@media only screen and (min-width: 1360px) {
+    h1{
+        padding-top: 2rem;
+        color: darkcyan;
+    }
+
+    body {
+        width: 80% !important;
+    }
+}

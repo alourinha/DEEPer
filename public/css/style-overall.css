@@ -1,0 +1,103 @@
+html {
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('../images/background.jpg');
+    backdrop-filter: blur(15px) grayscale(45%);
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0!important;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    text-shadow: 3px 3px gray;
+}
+
+h5 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    font-weight:bolder;
+    filter: drop-shadow(2px 2px rgba(0,0,0,0.5));
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: #4CA746;
+}
+
+p.prodName {
+    color: deeppink;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2rem;
+    font-weight:bolder;
+    filter: drop-shadow(2px 2px rgba(0,0,0,0.5));
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: deeppink;
+}
+
+img {
+    filter: drop-shadow(2px 2px rgba(0,0,0,0.5));
+}
+
+nav {
+    font-family: 'Fredoka One', cursive;
+    margin-top: -15px;
+    color: antiquewhite;
+    font-weight: 700;
+    text-shadow: 3px 3px dimgrey;
+}
+
+.navpad {
+    padding-left: 0;
+}
+
+.navpad input {
+    margin-top: 1%!important;
+    height: 50%;
+}
+
+.brand {
+    font-size: 1.2rem;
+    color: antiquewhite;
+    font-family: 'Sonsie One', cursive;
+    text-shadow: 1px 1px #eb452b,
+    2px 2px 0px #efa032,
+    3px 3px 0px #46b59b,
+    4px 4px 0px #017e7f;
+}
+
+
+.container {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .15);
+    margin: 0;
+    min-width: 100%;
+}
+
+.modal-backdrop {
+    background-color: transparent;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+    h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    nav {
+        font-size: 1.1rem!important;
+    }
+}

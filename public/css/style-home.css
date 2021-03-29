@@ -1,0 +1,122 @@
+body {
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    font-family: 'Sonsie One', cursive;
+}
+
+p.top {
+    color: deeppink;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    font-weight:bolder;
+    filter: drop-shadow(2px 2px rgba(0,0,0,0.5));
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: deeppink;
+}
+
+nav {
+    font-size: 1.2rem;
+}
+
+footer {
+    background-image: url('../images/chocolate_pool.png');
+    height: 7.8rem;
+    background-repeat: no-repeat;
+    align-content: end;
+}
+
+#footer {
+    max-width: 100%!important;
+    padding-top: 5.5rem;
+}
+
+#shadow {
+    color: antiquewhite;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px #eb452b,
+    10px 10px 0px #efa032,
+    15px 15px 0px #46b59b,
+    20px 20px 0px #017e7f;
+}
+
+#nav-bg-sm {
+    display: none;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+    h1{
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    p.top {
+        font-size: 1.2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+
+    .hover:hover {
+        transition: transform .2s;
+        transform: scale(1.2);
+    }
+
+    .hover:hover p.top {
+        transition: transform .2s;
+        transform: scale(1.2);
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 1124px) and (max-width: 1500px){
+    h1{
+        font-size: 6rem;
+    }
+
+    h2{
+        color: white;
+        font-size: 3rem;
+    }
+
+    body {
+        width: 90%!important;;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    p.top {
+        font-size: 1.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+
+    h1{
+        font-family: 'Sonsie One', cursive;
+        font-size: 6rem;
+    }
+
+    h2{
+        color: white;
+        font-size: 3rem;
+    }
+
+    body {
+        width: 85% !important;
+    }
+
+    nav {
+        font-size: 1.5rem;
+    }
+
+    .navpad {
+        padding-left: 2.5rem;
+    }
+}
