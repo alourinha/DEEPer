@@ -44,14 +44,14 @@ $products = $dbProvider->getProducts($searchTerm);
 
                         if ($product->glutten_free === 'true') {
                             ?>
-                        <p> Glutten Free! </p>
+                        <p class="text-white" style="text-shadow: 2px 2px gray; font-size: 1.5rem"><strong>Glutten Free!</strong>  </p>
                         <?php
                         }
                         if ($product->has_filling === 'true') {
                             ?>
-                            <p> With filling! </p>
+                            <p class="text-white" style="text-shadow: 2px 2px gray; font-size: 1.5rem"><strong> With filling!</strong> </p>
                         <?php } else { ?>
-                            <p> No Filling </p>
+                            <p class="text-white" style="text-shadow: 2px 2px gray; font-size: 1.5rem"><strong> No Filling </strong> </p>
                         <?php
                         }
                         ?>
